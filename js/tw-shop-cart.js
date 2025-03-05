@@ -94,9 +94,7 @@ function updateCart() {
 
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "flex-grow text-left";
-    detailsDiv.innerHTML = `<h2 class="text-lg font-semibold">${
-      item.name
-    }</h2><p class="text-gray-600">$${item.price}</p>`;
+    detailsDiv.innerHTML = `<h2 class="text-lg font-semibold">${item.name}</h2><p class="text-gray-600">$${item.price}</p>`;
 
     const controlsDiv = document.createElement("div");
     controlsDiv.className = "flex items-center space-x-2";
