@@ -20,11 +20,11 @@ function updateStepView() {
   // 更新步驟圓圈樣式
   circles.forEach((circle, index) => {
     if (index < currentStep) {
-      circle.classList.add("bg-green-500", "text-white");
+      circle.classList.add("bg-accent", "text-white");
       circle.classList.remove("bg-gray-300");
     } else {
       circle.classList.add("bg-gray-300");
-      circle.classList.remove("bg-green-500", "text-white");
+      circle.classList.remove("bg-accent", "text-white");
     }
   });
 
@@ -84,7 +84,7 @@ function updateCart() {
     total += item.price * item.quantity;
     const itemElement = document.createElement("div");
     itemElement.className =
-      "flex items-center mb-4 p-4 hover:bg-gray-50 transition-colors duration-200 rounded-lg";
+      "flex items-center mb-4 p-4 hover:bg-gray-100 transition-colors duration-200 rounded-lg";
 
     const imgElement = document.createElement("img");
     imgElement.src = item.image;
