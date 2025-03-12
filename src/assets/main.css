@@ -1,0 +1,54 @@
+/* @import './base.css'; */
+@import "tailwindcss";
+
+@theme{
+  --color-primary: #1A0A08; 
+  /* // 主要背景 / 深色主色 */
+  --color-background: #FEFCFB; 
+  /* // 整體背景色 */
+  --color-accent: #FBCB3A; 
+  /* // 鮮黃色（主要按鈕 / 重點） */
+  --color-secondary: #D1DE8F; 
+  /* // 黃綠色（次要按鈕） */
+  --color-highlight: #94D46B; 
+  /* // 強調色（滑鼠懸停、標示） */
+  --color-textPrimary: #1A0A08; 
+  /* // 主要文字色 */
+  --color-textSecondary: #4A3F3C; 
+  /* // 次要文字色 */
+  --font-sans:"Jaldi", "sans-serif";
+}
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
